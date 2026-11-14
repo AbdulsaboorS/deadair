@@ -1,0 +1,15 @@
+SESSION_CONTEXT.md
+.env
+.env.*
+.dev.vars
+node_modules/
+__pycache__/
+.venv/
+*.pyc
+dist/
+.DS_Store
+# call recordings can hold private speech: keep them out of git unless they are synthetic
+recordings/
+*.wav
+*.mp3
+!samples/**/*.wav
